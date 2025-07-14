@@ -9,7 +9,7 @@ A production-ready Flutter boilerplate built for enterprise-scale applications. 
 ### 1. Clone the Repo
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/mylzdev/flutter-bloc-boilerplate.git
 cd boilerplate
 ```
 
