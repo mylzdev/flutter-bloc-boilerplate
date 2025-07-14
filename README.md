@@ -24,7 +24,7 @@ flutter pub get
 ### 3. Rename the Project
 
 - Change the app name, description, and package/bundle ID.
-- Change the boilerplate.iml and `lib/src/app/app_boilerplate`
+- Change the `lib/src/app/app_boilerplate`
 
 #### a. Edit `pubspec.yaml`
 
@@ -37,8 +37,8 @@ description: "Your project description."
 
 ```sh
 dart pub global activate rename
-rename set --bundleId com.yourdomain.appname
-rename set --appname "Your App Name"
+rename setBundleId --value com.yourdomain.appname
+rename setAppName --value "Your App Name"
 ```
 
 ### 4. Activate and Use index_generator
