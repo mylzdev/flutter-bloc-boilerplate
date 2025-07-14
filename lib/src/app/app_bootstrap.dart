@@ -1,3 +1,4 @@
+import 'package:boilerplate/src/app/app_service_locator.dart' as sl;
 import 'package:flutter/material.dart';
 
 /// This is where you can define your app's bootstrap function.
@@ -5,4 +6,7 @@ import 'package:flutter/material.dart';
 /// You can use this function to initialize services, set up dependencies, etc.
 Future<void> bootstrap() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Dependency Injection
+  await sl.init();
 }

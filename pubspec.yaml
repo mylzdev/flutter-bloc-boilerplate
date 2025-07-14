@@ -20,10 +20,32 @@ dependencies:
   # Utilities
   logger: ^2.6.0
 
+  # Generators
+  equatable: ^2.0.7
+  json_annotation: ^4.9.0
+
+  # Dependency Injection
+  get_it: ^8.0.3
+
+  # Functional Programming
+  dartz: ^0.10.1
+
+  # State Management
+  flutter_bloc: ^9.1.1
+
+  # Routing
+  go_router: ^16.0.0
+  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+  build_runner: ^2.5.4
+  go_router_builder: ^3.0.0
+  json_serializable: ^6.9.5
 
 flutter:
 
